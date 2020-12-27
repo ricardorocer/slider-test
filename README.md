@@ -5,7 +5,7 @@ This mini project is an attempt to replicate [this behavior](https://ourcodeworl
 The code uses the following elements: 
 1. Absolute positioning for overlapping images;
 2. CSS [clip](https://developer.mozilla.org/en-US/docs/Web/CSS/clip) for the "cropping" effect on one image;
-3. WeChat [<slider>](https://developers.weixin.qq.com/miniprogram/dev/component/slider.html) for user interactivity and data binding;
+3. WeChat [slider](https://developers.weixin.qq.com/miniprogram/dev/component/slider.html) for user interactivity and data binding;
 
 The current problems are: 
 1. The CSS clip property only allows for (rpx and px) which doesn't allow for much responsive sizing in your component;
