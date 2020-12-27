@@ -1,0 +1,21 @@
+.container {
+  padding: 40rpx;
+}
+
+.img-container {
+  width: 640rpx;
+  height: 400rpx;
+  position: relative;
+}
+
+.img-container > .img {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.img-slider {
+  width: 100%;
+}

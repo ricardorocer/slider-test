@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="img-container">
+    <image 
+      class="img" 
+      src="/images/1.jpeg" 
+      mode="aspectFill" 
+      style="z-index: 10; clip: rect(0rpx, 640rpx, 400rpx, {{640 * slideValue/100}}rpx)"/>
+    <image 
+      class="img" 
+      mode="aspectFill"
+      src="/images/2.jpeg"
+      style="z-index: 0; " />
+  </view>
+  <slider class="img-slider" value="100" bindchanging="slideChange"/>
+</view>
